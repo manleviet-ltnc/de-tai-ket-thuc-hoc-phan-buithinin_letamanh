@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -13,7 +14,8 @@ namespace ThreesGame
     public partial class frmThreesGame : Form
     {
         Random Rd = new Random();
-        int[,] mangChiSoRong = new int[4, 4];
+        static ArrayList mangChiSoRong = new ArrayList();
+
         public frmThreesGame()
         {
             InitializeComponent();
@@ -109,5 +111,55 @@ namespace ThreesGame
 
         }
 
+        public void KhoiTaoManGame()
+        {
+            mangChiSoRong.Clear();
+
+            Label[,] Game = {
+                                {lbl1,lbl2,lbl3,lbl4},
+                                {lbl5,lbl6,lbl7,lbl8},
+                                {lbl9,lbl10,lbl11,lbl12},
+                                {lbl13,lbl14,lbl15,lbl16}
+                              };
+            for (int i = 0; i < 4; i++)
+            {
+                for (int j = 0; j < 4; j++)
+                {
+                    if (Game[i, j].Text == "")
+                    {
+                        mangChiSoRong.Add(i * 4 + j + 1);
+                    }
+                }
+            }
+
+            if (mangChiSoRong.Count > 0)
+            {
+
+                int chiSoHinh = int.Parse(mangChiSoRong[Rd.Next(0, mangChiSoRong.Count - 1)].ToString());
+                int i0 = (chiSoHinh - 1) / 4;
+                int j0 = (chiSoHinh - 1) - i0 * 4;
+                int NgauNhien = Rd.Next(1, 10);
+                if (NgauNhien == 1 || NgauNhien == 2 || NgauNhien == 3 || NgauNhien == 4 || NgauNhien == 5 || NgauNhien == 6)
+                {
+                    Game[i0, j0].Text = "1";
+                }
+                else
+                {
+                    Game[i0, j0].Text = "2";
+                }
+
+            }
+            CapNhatMau();
+        }
+
+        private void frmThreesGame_Load(object sender, EventArgs e)
+        {
+            KhoiTaoManGame();
+            KhoiTaoManGame();
+            KhoiTaoManGame();
+            KhoiTaoManGame();
+            KhoiTaoManGame();
+            KhoiTaoManGame();
+        }
     }
 }
