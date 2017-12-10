@@ -310,6 +310,7 @@
             this.btnNew.TabIndex = 4;
             this.btnNew.Text = "New";
             this.btnNew.UseVisualStyleBackColor = false;
+            this.btnNew.Click += new System.EventHandler(this.btnNew_Click);
             // 
             // btnExit
             // 
@@ -321,11 +322,13 @@
             this.btnExit.TabIndex = 5;
             this.btnExit.Text = "Exit";
             this.btnExit.UseVisualStyleBackColor = false;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // frmThreesGame
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.Gainsboro;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(524, 368);
@@ -356,7 +359,8 @@
             this.MinimizeBox = false;
             this.Name = "frmThreesGame";
             this.Text = "ThreesGame";
-            this.Load += new System.EventHandler(this.frmThreesGame_Load);
+            this.Load += new System.EventHandler(this.FrmThreesGame_Load);
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.frmThreesGame_KeyDown);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
