@@ -2,9 +2,9 @@ C:\Users\quanglong\Documents\GitHub\de-tai-ket-thuc-hoc-phan-buithinin_letamanh\
 C:\Users\quanglong\Documents\GitHub\de-tai-ket-thuc-hoc-phan-buithinin_letamanh\ThreesGame\ThreesGame\bin\Debug\ThreesGame.exe
 C:\Users\quanglong\Documents\GitHub\de-tai-ket-thuc-hoc-phan-buithinin_letamanh\ThreesGame\ThreesGame\bin\Debug\ThreesGame.pdb
 C:\Users\quanglong\Documents\GitHub\de-tai-ket-thuc-hoc-phan-buithinin_letamanh\ThreesGame\ThreesGame\obj\Debug\ThreesGame.csprojResolveAssemblyReference.cache
-C:\Users\quanglong\Documents\GitHub\de-tai-ket-thuc-hoc-phan-buithinin_letamanh\ThreesGame\ThreesGame\obj\Debug\ThreesGame.frmThreesGame.resources
 C:\Users\quanglong\Documents\GitHub\de-tai-ket-thuc-hoc-phan-buithinin_letamanh\ThreesGame\ThreesGame\obj\Debug\ThreesGame.Properties.Resources.resources
 C:\Users\quanglong\Documents\GitHub\de-tai-ket-thuc-hoc-phan-buithinin_letamanh\ThreesGame\ThreesGame\obj\Debug\ThreesGame.csproj.GenerateResource.Cache
 C:\Users\quanglong\Documents\GitHub\de-tai-ket-thuc-hoc-phan-buithinin_letamanh\ThreesGame\ThreesGame\obj\Debug\ThreesGame.csproj.CoreCompileInputs.cache
 C:\Users\quanglong\Documents\GitHub\de-tai-ket-thuc-hoc-phan-buithinin_letamanh\ThreesGame\ThreesGame\obj\Debug\ThreesGame.exe
 C:\Users\quanglong\Documents\GitHub\de-tai-ket-thuc-hoc-phan-buithinin_letamanh\ThreesGame\ThreesGame\obj\Debug\ThreesGame.pdb
+C:\Users\quanglong\Documents\GitHub\de-tai-ket-thuc-hoc-phan-buithinin_letamanh\ThreesGame\ThreesGame\obj\Debug\ThreesGame.Form1.resources

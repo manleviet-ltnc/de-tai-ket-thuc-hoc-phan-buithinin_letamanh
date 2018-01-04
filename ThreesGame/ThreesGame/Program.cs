@@ -16,7 +16,7 @@ namespace ThreesGame
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmThreesGame());
+            Application.Run(new Form1());
         }
     }
 }
